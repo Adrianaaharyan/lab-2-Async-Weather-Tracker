@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d1137;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.search-box {
+  flex: 2;
+  min-width: 300px;
+}
+
+#weatherResult {
+  flex: 1;
+  min-width: 300px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px;
+  width: calc(100% - 100px);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ff6f3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e65a2b;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px 15px;
+  background: #ff6f3c;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+li:hover {
+  background: #e65a2b;
+}
+
+.weather-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.weather-table tr {
+  border-bottom: 1px solid #eee;
+}
+
+.weather-table td {
+  padding: 10px;
+}
+
+.weather-table td:first-child {
+  font-weight: bold;
+  color: #555;
+  border-left: 3px solid #ffccba;
+  width: 40%;
+}
+
+.weather-table td:last-child {
+  text-align: right;
+  color: #000;
+}
+
+.console {
+  margin: 30px auto;
+  width: 640px;
+  background: #0e1a40;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+#logBox {
+  font-family: monospace;
+  font-size: 13px;
+}
